@@ -5,12 +5,7 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-/*
-Java com.paly.Tetris game clone
 
-Author: Jan Bodnar
-Website: http://zetcode.com
- */
 public class Tetris extends JFrame {
 
     private JLabel statusbar;
@@ -41,12 +36,7 @@ public class Tetris extends JFrame {
     }
 
     public static void main(String[] args) {
-//
-//        EventQueue.invokeLater(() -> {
-//
-//            Tetris game = new Tetris();
-//            game.setVisible(true);
-//        });
+
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
